@@ -160,3 +160,31 @@ header {
 .info {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
+
+.sb-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+}
+.search-bar {
+    padding: 1%;
+    margin: 1%;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    border-style: none;
+    color: black;
+    
+}
+
+.search-bar-btn {
+    padding: 1%;
+    border-radius: 10px;
+    border-style: none;
+    width: auto;
+    height: 60%;
+    background-color: rgb(11, 68, 11);
+    color: aliceblue;
+}
